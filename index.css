@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto";
+	src: url("/Roboto-Regular.ttf") format("ttf")
+}
+
+.container {
+	width: 100%;
+	display: flex;	
+	justify-content: center;	
+}
+
+body {
+	font-family: Roboto, sans-serif;
+}
+
+.image-container {
+	width: 400px;
+	height: 100vh;	
+	display: flex;	
+	justify-content: center;	
+	align-items: flex-end;
+	background-color: red;
+	background-image: url("./self-photo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content-container {
+	width: calc(100% - 400px);
+}
+
+.image-description {
+	margin-bottom: 32px;	
+	color: white;
+}
+
+.image-description-heading {
+	font-size: 30px;
+	font-weight: bold;	
+	margin-bottom: 20px;	
+}
+
+
+.image-description-body {
+	font-size: 14px;	
+}
+
+.header-container {
+	padding: 64px;	
+
+}
+
+.header-container-heading {
+	font-size: 32px;
+	margin-bottom: 8px;	
+}
+
+.header-container-body {
+	color: #666666;
+	font-size: 16px;
+}
+
+.content-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex-grow: 1;
+	display: flex;	
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 150px;
+	background-color: #F9F9F9;
+}
+
+.content-block-body-header	{
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.footer-logo {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 24px 32px;
+	background-color: white;
+	-webkit-box-shadow: -6px 7px 8px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: -6px 7px 8px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: -6px 7px 8px 0px rgba(34, 60, 80, 0.2);
+}
